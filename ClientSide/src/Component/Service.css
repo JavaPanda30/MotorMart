@@ -1,0 +1,201 @@
+.C {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .Content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #1e1e1e;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+  }
+  
+  .p1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+  }
+  .Content .h1 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .Content .p1 {
+    line-height: 1.5;
+  }
+  
+  .C:hover {
+    box-shadow: 0 0 20px #1e1e1e;
+    border-color: #1e1e1e;
+  }
+  
+  .ServicesCards1,
+  .ServicesCards2,
+  .ServicesCards3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 3rem;
+  }
+  
+  .servicesh1 {
+    color: #1e1e1e;
+    text-align: center;
+    margin: 2rem 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .servicesp {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .servicesh1,
+  .servicesp {
+    text-align: center;
+  }
+  
+  .serviceblogh1 {
+    color: #1e1e1e;
+    text-align: center;
+    margin: 2rem 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+  }
+  
+  .servicebox {
+    padding: 2rem 2rem;
+  }
+  
+  .serviceblogp {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .serviceBlog {
+    display: flex;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .Blogimg {
+    height: 100%;
+    width: 100%;
+  }
+  .serviceBlogimg {
+    width: 100%;
+    height: 415px;
+    border-radius: 5px;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  .serviceBlogArticle {
+    margin-left: 30px;
+  }
+  
+  .serviceformh1 {
+    color: #1e1e1e;
+    text-align: center;
+    margin: 2rem 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+  }
+  
+  .serviceformp {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .serviceFormContact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+  }
+  .serviceConatactUnOrderedList {
+    list-style: none;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 90px;
+  }
+  .ContactList {
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  
+  .ConatactList {
+    margin-bottom: 0.5rem;
+  }
+  
+  .serviceContact {
+    color: #1e1e1e;
+    margin: 1rem 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+  }
+  
+  .serviceboxinput {
+    background-color: transparent;
+    border: 2px solid #1e1e1e;
+    font-weight: bold;
+    width: 600px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+  .serviceboxbutton {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1e1e1e;
+    color: #fff;
+    border: none;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+  }
+  .Contacts {
+    margin-top: 100px;
+  }
+  
+  .serviceboxbutton:hover {
+    background-color: #fff;
+    color: #1e1e1e;
+    border: 2px solid #1e1e1e;
+  }
+  

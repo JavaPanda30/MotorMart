@@ -1,0 +1,29 @@
+.SuperBar {
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    font-weight: bold;
+    padding-top: calc(1.8 * var(--src-ht));
+  }
+  
+  .SuperBarList {
+    list-style-type: none;
+    display: flex;
+    padding: 25px;
+  }
+  
+  .SuperBarIcons {
+    margin-right: 10px;
+  }
+  
+  .SuperBarText {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+    margin-right: 15px;
+  }
+
+  

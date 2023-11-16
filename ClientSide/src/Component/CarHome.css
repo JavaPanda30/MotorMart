@@ -1,0 +1,104 @@
+.CarHomeHeading {
+  margin: 3rem 2rem;
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.CarHomeSpan {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.CarHomeCardTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Card1Img {
+  width: 420px;
+  height: 560px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.Card2Img {
+  width: 420px;
+  height: 560px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+
+.Card3Img {
+  width: 420px;
+  height: 560px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+
+.Card1Img:hover,
+.Card2Img:hover,
+.Card3Img:hover,
+.Card4Img:hover,
+.Card5Img:hover {
+  /* object-fit: cover; */
+  transform: scale(1.03);
+}
+
+.CarHomeCard1,
+.CarHomeCard2,
+.CarHomeCard3 {
+  margin-right: 15px;
+}
+
+.Car1Text,
+.Car2Text,
+.Car3Text,
+.Car4Text,
+.Car5Text {
+  color: #1e1e1e;
+  text-align: center;
+  /* font-family: "Inter", sans-serif; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 4rem;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.CardHomeBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Card4Img {
+  width: 617px;
+  height: 440px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in;
+}
+
+.Card5Img {
+  width: 617px;
+  height: 440px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
