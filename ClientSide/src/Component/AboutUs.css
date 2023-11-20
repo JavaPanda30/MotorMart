@@ -1,0 +1,138 @@
+.AboutUs {
+  margin: 0;
+}
+
+.Image {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+.Image:hover {
+  opacity: 0.7;
+}
+
+.BlogImage {
+  width: 100%;
+  height: auto;
+}
+.aboutusBlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 3rem 1rem;
+}
+
+.BlogText {
+  margin-top: 5px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  padding: 0;
+  margin: 0;
+}
+
+.Awards1,
+.Awards2,
+.Awards3,
+.Awards4 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+.AwardText1,
+.AwardText2,
+.AwardText3,
+.AwardText4 {
+  padding: 0 2rem;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 5px;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover {
+  opacity: 0.7;
+}
+
+.ourTeam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Team {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.Team,
+.AwardsAboutUsh1,
+.AwardsAboutUsp {
+  text-align: center;
+}
+
+.AwardsAboutUsh1 {
+  margin-top: 5rem;
+}
+
+.AboutUsIcon {
+  margin-right: 1rem;
+}
+
+.AwardTextp,
+.BlogTextp,
+.Teamp,
+.teamText,
+.AwardsAboutUsp {
+  font-family: "Outfit", sans-serif;
+  font-size: 19px;
+}
+
+@media screen and (min-width: 600px) {
+  .aboutusBlog,
+  .Awards1,
+  .Awards2,
+  .Awards3,
+  .Awards4,
+  .ourTeam {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BlogImage,
+  .BlogText {
+    width: 50%;
+  }
+
+  .Awards1,
+  .Awards2,
+  .Awards3,
+  .Awards4 {
+    flex-direction: row;
+  }
+
+  .AwardText1,
+  .AwardText2,
+  .AwardText3,
+  .AwardText4 {
+    width: 50%;
+  }
+}
