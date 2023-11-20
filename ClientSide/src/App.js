@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import UserProfile from "./Component/UserProfile";
 import UpdateProfileForm from "./Component/UpdateProfileForm";
+import AboutUs from './Component/AboutUs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
         <Route path="/update-profile/*" element={<UpdateProfileForm />} />
         <Route path="/profile" element={<UserProfile />} />
+         <Route path="/about" element={<AboutUs />} />
       </Routes>
     </Router>
   );
