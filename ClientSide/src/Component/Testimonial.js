@@ -7,7 +7,7 @@ export default function Testimonial() {
         <h1>Why Clients Loves Us ? </h1>
       </div>
       <div className="TestimonialPara">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        This is What Only Trust can Get 
       </div>
       <div class="outerdiv">
         <div class="innerdiv">
