@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./BlueCar.css";
-import imageblu from './BlueCar.png'
 const BlueCar = () => {
   return (
     <div class="container text-center">
@@ -31,7 +30,7 @@ const BlueCar = () => {
 
         <div class="col">
           <div class="yl">
-            <img src={imageblu} alt="" /></div>
+            <img src='./BlueCar.png' alt="" /></div>
         </div>
       </div>
     </div>
