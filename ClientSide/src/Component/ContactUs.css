@@ -1,0 +1,124 @@
+.ContactUsMap {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.ContactUsHeading {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.ContactUsSpan {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.H1ContactUs {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+}
+
+.ContactUsText1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+
+.ContactUsSpan2 {
+  text-align: center;
+  margin: 2rem 3rem;
+}
+
+.ContactUsText2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+
+.ContactUsBody {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.ContactUSimg {
+  height: 400px;
+  width: auto;
+}
+
+.ContactUsLeft {
+  margin: 4rem 4rem;
+}
+
+.ContactUsRight {
+  margin: 4rem 4rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-submit {
+  background-color: #1e1e1e;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form-submit:hover {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+
+.ContactUsForm {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ContactUsBody {
+    flex-direction: column;
+  }
+
+  .ContactUsLeft,
+  .ContactUsRight {
+    margin: 2rem;
+  }
+
+  .ContactUsForm {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .ContactUsText1,
+  .ContactUsText2 {
+    font-size: 16px;
+  }
+
+  .H1ContactUs {
+    font-size: 28px;
+  }
+}
