@@ -10,7 +10,7 @@ function Topbar() {
     const handleLogout = () => {
       logout();
       navigate("/login");
-  
+   window.alert("Logged Out Successfully");
       console.log("Logged Out");
     };
   return (
