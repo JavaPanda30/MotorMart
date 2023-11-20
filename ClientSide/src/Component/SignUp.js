@@ -19,6 +19,7 @@ function SignUp() {
         .then((result) => {
           console.log(result);
           navigate("/login");
+          window.alert("User Registered Successfully");
         })
         .catch((err) => {
           console.log(err);
