@@ -1,13 +1,18 @@
 import { Link, useNavigate } from "react-router-dom";
 import "./Topbar.css";
 import NameDisp from "./NameDisp";
-export default function Topbar() {
+import { useUser } from "./UserContext";
+
+function Topbar() {
   const navigate = useNavigate();
+    const { logout } = useUser();
 
-  const handleLogout = () => {
-    navigate("/login");
-  };
-
+    const handleLogout = () => {
+      logout();
+      navigate("/login");
+  
+      console.log("Logged Out");
+    };
   return (
     <div className="Top">
       <div className="TopLeft">
@@ -33,12 +38,14 @@ export default function Topbar() {
             </Link>
           </li>
           <li>
-            <Link to="/home">
-              <div className="ToplistItems">Book Now</div>
+            <Link to="/profile">
+              <div className="ToplistItems">Profile</div>
             </Link>
           </li>
           <li className="ToplistItems">
+            <Link to='/profile'>
             <NameDisp />
+            </Link>
           </li>
           <li className="ToplistItems">
             <button
@@ -47,6 +54,7 @@ export default function Topbar() {
                 color: "black",
                 border: "1px solid black",
                 height: "40px",
+                background: "transparent",
               }}
               onClick={handleLogout}
             >
@@ -58,3 +66,4 @@ export default function Topbar() {
     </div>
   );
 }
+export default Topbar;
