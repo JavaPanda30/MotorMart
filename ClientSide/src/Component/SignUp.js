@@ -15,7 +15,7 @@ function SignUp() {
     e.preventDefault();
     if (name && email && password) {
       axios
-        .post("http://localhost:3001/register", { name, email, password })
+        .post("https://motormart.onrender.com/register", { name, email, password })
         .then((result) => {
           console.log(result);
           navigate("/login");
