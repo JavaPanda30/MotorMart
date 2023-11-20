@@ -5,6 +5,7 @@ import CarHome from './CarHome';
 import Testimonial from './Testimonial';
 import HomeCard from './HomeCard';
 import Footer from './Footer';
+import HomeCounter from './HomeCounter';
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       <SuperBar />
       <CarHome />
       <div className="Home">
+    <HomeCounter />
         <div id='Testimonial'>
           <Testimonial />
           </div>
