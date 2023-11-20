@@ -47,7 +47,7 @@ export default function CarHome() {
         </div>
         <div className="CarHomeCard5">
           <img
-            src="./variety.jpg"
+            src="./Variety.jpg"
             alt=""
             className="Card5Img"
           />
