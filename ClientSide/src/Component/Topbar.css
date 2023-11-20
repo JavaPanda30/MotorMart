@@ -1,51 +1,58 @@
 .Top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    font-weight: bolder;
-    padding: 2rem 2rem;
-    background-color: #cdd7e0;
-    text-decoration: none;
-    z-index: 1000;
-    height: var(--src-ht);
-  }
-  
-  .CompanyName {
-    color: #1e1e1e;
-    font-family: "Inter", sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-  }
-  
-  .TopList {
-    list-style: none;
-    display: flex;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  font-weight: bolder;
+  padding: 2rem 2rem;
+  background-color: #f8f9fa;
+}
 
+.CompanyName {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.TopList {
+  list-style: none;
+  display: flex;
+}
+
+.TopLeft {
+  cursor: pointer;
+}
+
+.ToplistItems {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style: none;
+  margin-top: 12px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile and Larger Screens */
+@media (max-width: 768px) {
+  .Top {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
   }
-  
-  .TopLeft {
-    cursor: pointer;
-    text-decoration: none;
+
+  .CompanyName {
+    font-size: 40px;
   }
-  
+
   .ToplistItems {
-    text-decoration: none !important;
-    font-family: "Outfit", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    list-style: none;
-    margin-top: 12px;
-    margin-right: 25px;
-    cursor: pointer;
-    color: black;
-    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-bottom: 10px;
   }
-  
+}
