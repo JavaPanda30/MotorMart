@@ -1,6 +1,6 @@
-import Footer from "../../Footer/Footer";
-import SuperBar from "../../SuperBar/SuperBar";
-import Topbar from "../../Topbar/Topbar";
+import Footer from "./Footer";
+import SuperBar from "./SuperBar";
+import Topbar from "./Topbar";
 import "./AboutUs.css";
 
 export default function AboutUs() {
