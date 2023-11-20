@@ -54,7 +54,7 @@ export default function AboutUs() {
           </p>
           <div className="Awards1">
             <div className="div1">
-              <img className="img1" src="./Assets/1.png" alt="A1" />
+              <img className="img1" src="./Component/Assets/1.png" alt="A1" />
             </div>
             <div className="AwardText1">
               <p className="AwardTextp">
