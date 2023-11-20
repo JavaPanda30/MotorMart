@@ -1,0 +1,35 @@
+#image-container {
+  flex: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#image-container img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+#content-container {
+  flex: 1;
+  padding: 20px;
+  display: inline-block;
+}
+h4 {
+  text-align: left;
+}
+.ybtn {
+  padding-right: 450px;
+}
+p {
+  text-align: left;
+}
+img {
+  align-content: left;
+  height: 300px;
+  width: 500px;
+}
+l {
+  padding-right: 100px;
+  height: 400px;
+}
