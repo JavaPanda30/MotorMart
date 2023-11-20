@@ -37,7 +37,16 @@
   margin-right: 25px;
   cursor: pointer;
 }
+  a:link,
+a:active,
+a:visited,
+a:hover {
+  color: black !important;
+}
 
+a {
+  text-decoration: none !important;
+}
 /* Media Query for Mobile and Larger Screens */
 @media (max-width: 768px) {
   .Top {
