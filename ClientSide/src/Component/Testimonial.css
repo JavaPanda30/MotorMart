@@ -57,6 +57,14 @@ a:hover {
   box-shadow: 5px 5px 20px #6d6b6b6b;
   color: white;
 }
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  padding: 1rem 2rem;
+}
+
 .div1 {
   background: #733fc8;
   grid-column: 1/3;
