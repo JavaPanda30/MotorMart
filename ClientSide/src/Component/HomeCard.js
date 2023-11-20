@@ -5,7 +5,8 @@ export default function HomeCard() {
     <div className="HomeCard">
       <div className="HomeCardTitle">Our Services</div>
       <div className="HomeCardPara">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        "Embark on a seamless journey with Motor Mart – where innovation meets
+        elegance, and personalized service elevates your car-buying experience."
       </div>
       <div className="HomeCard1">
         <div className="C1">
@@ -16,9 +17,9 @@ export default function HomeCard() {
                 Highly <br /> Secured
               </p>
               <p className="HomeCardp1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                laboriosam at voluptas minus culpa deserunt delectus sapiente
-                inventore pariatur
+                Trust in our commitment to security. Experience the confidence
+                of highly encrypted transactions and airtight data protection at
+                Motor Mart. Your safety is our top priority.
               </p>
             </div>
           </div>
@@ -31,9 +32,10 @@ export default function HomeCard() {
                 Trusted <br /> Agents{" "}
               </p>
               <p className="HomeCardp1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                laboriosam at voluptas minus culpa deserunt delectus sapiente
-                inventore pariatur
+                Navigate car buying with confidence. Our Trusted Agents ensure a
+                transparent, expert-guided experience. Trust in every detail,
+                from virtual tours to personalized advice, as you find your
+                perfect ride.
               </p>
             </div>
           </div>
@@ -48,9 +50,10 @@ export default function HomeCard() {
                 Get <br /> Offer
               </p>
               <p className="HomeCardp1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                laboriosam at voluptas minus culpa deserunt delectus sapiente
-                inventore pariatur
+                Unlock exclusive deals with Motor Mart's 'Get Offer' service.
+                Experience unbeatable prices and tailored promotions, making
+                your dream car more attainable than ever. Your offer, your
+                advantage.
               </p>
             </div>
           </div>
@@ -63,9 +66,10 @@ export default function HomeCard() {
                 Free <br /> Support
               </p>
               <p className="HomeCardp1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                laboriosam at voluptas minus culpa deserunt delectus sapiente
-                inventore pariatur
+                Drive worry-free with Motor Mart! Our commitment goes beyond
+                cars—enjoy complimentary support, ensuring your ownership
+                experience is as smooth as your favorite ride. Your
+                satisfaction, our priority .
               </p>
             </div>
           </div>
