@@ -1,24 +1,31 @@
-import React from 'react';
-function Alertmodal({ msg, onClose }) {
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
+function Alertmodal({ title = "Error!!", msg, onClose }) {
+  const [show, setShow] = useState(true);
+
   const handleClose = () => {
-    onClose(); 
-  }
+    setShow(false);
+    if (onClose) {
+      onClose();
+    }
+  };
 
   return (
-    <div className="modal" tabIndex="-1" role="dialog" style={{ display: 'block', color:'white' }}>
-      <div className="modal-dialog" role="document">
-        <div className="modal-content">
-          <div className="modal-header">
-          </div>
-          <div className="modal-body">
-            <p>{msg}</p>
-          </div>
-          <div className="modal-footer">
-            <button type="button" className="btn btn-primary" onClick={handleClose}>Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{title}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{msg}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
   );
 }
 
