@@ -1,0 +1,60 @@
+.HomeCounter {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  margin: 0;
+}
+
+.HomeCounterSec1,
+.HomeCounterSec2,
+.HomeCounterSec3,
+.HomeCounterSec4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.HomeCardIcons {
+  color: #fff;
+}
+
+.HomeCounterRightSec {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  margin-left: 2rem;
+}
+
+.HomeCounterText {
+  font-family: "Outfit", sans-serif;
+  font-size: 19px;
+}
+
+/* Media Query for Responsive Layout */
+@media (max-width: 768px) {
+  .HomeCounter {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .HomeCounterSec1,
+  .HomeCounterSec2,
+  .HomeCounterSec3,
+  .HomeCounterSec4 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .HomeCounterRightSec {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .HomeCounterText {
+    font-size: 16px;
+  }
+}
