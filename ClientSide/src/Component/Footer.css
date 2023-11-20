@@ -1,134 +1,205 @@
 .Footer {
-    width: 100%;
-  }
-  
-  .FooterTop {
-    background: #1e1e1e;
-    display: flex;
-    justify-content: space-around;
-    padding: 55px;
-  }
-  
-  .FooterImg {
-    width: 700px;
-    height: 319px;
-    flex-shrink: 0;
-    border-radius: 15px;
-  }
-  
-  .FooterTopDetails {
-    text-align: center;
-    margin-left: 2rem;
-  }
-  
-  .FooterTopTitle {
-    color: #fff;
-    font-family: "Inter", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: white;
-  }
-  
-  .FooterForm {
-    background-color: transparent;
-    font-weight: bold;
-    display: flex;
-    width: 370px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid #fff;
-    color: white;
-  }
-  
-  .FooterSubmit {
-    font-family: "Outfit", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    width: 394px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid #fff;
-    background: #fff;
-  }
-  
-  .FooterSubmit:hover {
-    background-color: #1e1e1e;
-    color: #fff;
-    border: 2px solid #fff;
-  }
-  
-  .FooterHr {
-    width: 100%;
-    height: 1px;
-    background: #dbd9d9;
-  }
-  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.FooterTop {
+  background: #1e1e1e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 4rem 0;
+}
+
+.FooterImg {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.FooterTopDetails {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.FooterTopTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+
+.AwardsAboutUsh1 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+}
+
+.FooterForm,
+.FooterSubmit {
+  width: 100%;
+  max-width: 300px;
+}
+
+.FooterForm {
+  background-color: transparent;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #fff;
+}
+
+.FooterSubmit {
+  margin: 0.7rem 0.7rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.FooterSubmit:hover {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.FooterHr {
+  width: 100%;
+  height: 1px;
+  background: #dbd9d9;
+}
+
+.FooterCenter {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.FooterLogo {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.FooterListHeading,
+.FooterListItems {
+  margin: 0.5rem 0;
+}
+
+.FooterListHeading {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style: none;
+}
+.FooterListItems {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+  list-style: none;
+}
+
+.FooterBottom {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.SocialIcons {
+  cursor: pointer;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.FooterBottomTxt {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* Media Query for Responsive Layout */
+@media (max-width: 768px) {
+  .FooterTop,
   .FooterCenter {
-    background-color: #1e1e1e;
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-    padding: 55px;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0.5rem;
   }
-  
+
+  .FooterCenterLogo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .FooterGeneral,
+  .FooterLegal,
+  .FooterSocialLinks {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .FooterTopImg {
+    order: 2;
+  }
+
+  .FooterTopDetails {
+    margin: 1rem auto;
+  }
+
   .FooterLogo {
-    color: #fff;
-    font-family: "Inter", sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 24px;
   }
-  
+
   .FooterListHeading {
-    color: #fff;
-    font-family: "Outfit", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    list-style: none;
-    margin-bottom: 45px;
+    font-size: 24px;
   }
   .FooterListItems {
-    color: #fff;
-    font-family: "Outfit", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    cursor: pointer;
-    list-style: none;
-    margin-top: 12px;
+    font-size: 18px;
   }
-  
-  .FooterBottom {
-    background-color: #1e1e1e;
-    margin: auto;
-    text-align: center;
-    padding: 25px;
-  }
-  
+
+  .FooterListItems,
   .SocialIcons {
-    cursor: pointer;
-    color: #fff;
-    margin-right: 0.75rem;
+    display: block;
+    margin: 0.5rem 0;
   }
-  
+
+  .FooterSubmit {
+    margin: 0.7rem 0.7rem;
+  }
+
   .FooterBottomTxt {
-    color: #fff;
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    font-size: 12px;
   }
-  
+
+  .SocialIcons {
+    margin-right: 0;
+  }
+}
