@@ -1,20 +1,27 @@
-import "./App.css";
+
+import React from "react";
 import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Services from "./Components/Service";
 import SignUp from "./Components/SignUp";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
+import UserProfile from "./Components/UserProfile";
+import UpdateProfileForm from "./Components/UpdateProfileForm";
+
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route path="/register" element={<SignUp />}></Route>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/service" element={<Services />}></Route>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/" element={<Login />}></Route>
+        <Route path="/register" element={<SignUp />} />
+        <Route path="/service" element={<Services />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/update-profile/*" element={<UpdateProfileForm />} />
+        <Route path="/profile" element={<UserProfile />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
