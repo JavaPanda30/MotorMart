@@ -52,6 +52,7 @@ a:hover {
   grid-template-columns: repeat(4, 17rem);
 }
 .eachdiv {
+  overflow: hidden;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
   box-shadow: 5px 5px 20px #6d6b6b6b;
@@ -62,7 +63,7 @@ a:hover {
 .div2,
 .div3,
 .div4 {
-  padding: 1rem 2rem;
+  padding: 3.5rem 2.5rem !important;
 }
 
 .div1 {

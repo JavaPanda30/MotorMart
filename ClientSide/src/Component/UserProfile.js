@@ -117,6 +117,8 @@ const UserProfile = () => {
     setShowUpdateForm(false);
   };
 
+  
+
   return (
     <>
       <Topbar />
@@ -124,7 +126,7 @@ const UserProfile = () => {
       <div className="imageprofile">
         <img
           className="imageprofile"
-          src="https://placekitten.com/200/200"
+          src="./image2.png"
           alt="Profile"
         />
       </div>
