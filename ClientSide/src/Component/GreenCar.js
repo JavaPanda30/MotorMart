@@ -1,13 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./GreenCar.css";
-import img from "./GreenCar.png";
 const GreenCar = () => {
   return (
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <div class="l"><img src={img} alt="" /></div>
+          <div class="l"><img src='./GreenCar.png' alt="" /></div>
         </div>
         <div class="col">
           <p>
