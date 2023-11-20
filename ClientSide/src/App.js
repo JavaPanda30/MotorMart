@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UserProfile from "./Component/UserProfile";
 import UpdateProfileForm from "./Component/UpdateProfileForm";
 import AboutUs from './Component/AboutUs';
+import CarListing from "./Component/CarListing";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home/>} />
+  <Route path="/carlisting" element={<CarListing />} />
         <Route path="/update-profile/*" element={<UpdateProfileForm />} />
         <Route path="/profile" element={<UserProfile />} />
          <Route path="/about" element={<AboutUs />} />
