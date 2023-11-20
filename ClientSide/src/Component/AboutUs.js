@@ -54,7 +54,7 @@ export default function AboutUs() {
           </p>
           <div className="Awards1">
             <div className="div1">
-              <img className="img1" src="/Assets/1.png" alt="A1" />
+              <img className="img1" src="./Assets/1.png" alt="A1" />
             </div>
             <div className="AwardText1">
               <p className="AwardTextp">
@@ -81,7 +81,7 @@ export default function AboutUs() {
           {/* Awards 2 */}
           <div className="Awards2">
             <div className="div2">
-              <img className="img2" src="/Assets/2.png" alt="A1" />
+              <img className="img2" src="./Assets/2.png" alt="A1" />
             </div>
             <div className="AwardText2">
               <p className="AwardTextp">
@@ -109,7 +109,7 @@ export default function AboutUs() {
           {/* Awards 3 */}
           <div className="Awards3">
             <div className="div3">
-              <img className="img3" src="/Assets/3.png" alt="A1" />
+              <img className="img3" src="./Assets/3.png" alt="A1" />
             </div>
             <div className="AwardText3">
               <p className="AwardTextp">
@@ -162,7 +162,7 @@ export default function AboutUs() {
           {/* Awards 4 */}
           <div className="Awards4">
             <div className="div4">
-              <img className="img4" src="/Assets/4.png" alt="A1" />
+              <img className="img4" src="./Assets/4.png" alt="A1" />
             </div>
             <div className="AwardText4">
               <p className="AwardTextp">
