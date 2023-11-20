@@ -2,148 +2,153 @@ import "./Testimonial.css";
 
 export default function Testimonial() {
   return (
-    <div className="Testimonial" id="Testimonial">
+    <div className="Testimonial">
       <div className="TestimonialHeading">
         <h1>Why Clients Loves Us ? </h1>
       </div>
       <div className="TestimonialPara">
-        Customers Satisfaction and Service is the First Priority at our Side.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </div>
-      <div className="outerdiv">
-        <div className="innerdiv">
-          <div className="div1 eachdiv">
-            <div className="userdetails">
-              <div className="imgbox">
+      <div class="outerdiv">
+        <div class="innerdiv">
+          <div class="div1 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
                 <img
                   src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg "
                   alt=""
                 />
               </div>
-              <div className="detbox">
-                <p className="name">Daniel Clifford</p>
-                <p className="designation">Happy Customer</p>
+              <div class="detbox">
+                <p class="name">Daniel Clifford</p>
+                <p class="designation">Happy Customer</p>
               </div>
             </div>
-            <div className="review">
-              <h4>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Sapiente nisi quisquam laboriosam repellendus autem qui nostrum
-                dolore, voluptas provident
-              </h4>
+            <div class="review">
+              <h4>Exceptional Service, Exceptional Cars</h4>
               <p>
-                “ Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Fugit, debitis! Eius molestiae inventore dicta sunt iusto
-                perferendis animi nesciunt laborum quibusdam! Ab non, magnam
-                consequatur cupiditate eligendi neque sed rerum? Lorem ipsum
-                dolor, sit amet consectetur adipisicing elit. Ut sequi animi,
-                aliquid tenetur, odit fugit at nemo aspernatur nulla consectetur
-                illo corrupti veniam ex temporibus nihil officia voluptas labore
-                harum? ”
+                “ Motor Mart delivered beyond my expectations. Their virtual
+                showroom seamlessly blends cutting-edge technology with
+                automotive excellence. The customer service surpassed any
+                previous car-buying experience, making finding my dream car
+                effortless and enjoyable. From virtual test drives to expert
+                advice, every step was marked by professionalism and genuine
+                care. Motor Mart is not just a showroom; it's an unmatched
+                journey into automotive sophistication. I highly recommend it to
+                anyone seeking exceptional service and a superior car shopping
+                experience. ”
               </p>
             </div>
           </div>
 
-          <div className="div2 eachdiv">
-            <div className="userdetails">
-              <div className="imgbox">
+          <div class="div2 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
                 <img
                   src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
                   alt=""
                 />
               </div>
-              <div className="detbox">
-                <p className="name">Jonathan Walters</p>
-                <p className="designation">Happy Customer</p>
+              <div class="detbox">
+                <p class="name">Jonathan Walters</p>
+                <p class="designation">Happy Customer</p>
               </div>
             </div>
-            <div className="review">
-              <h4>The team was very supportive</h4>
+            <div class="review">
+              <h4>Innovative and Intuitive</h4>
               <p>
-                “ Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                eum blanditiis nesciunt pariatur provident? Impedit commodi
-                magni praesentium consequuntur. Odit unde ad deserunt enim, est
-                beatae tempore inventore iste aliquam. ”
+                “ Navigating Motor Mart's virtual showroom was a delight. The
+                innovative interface made exploring cars a breeze. It felt like
+                I was physically there. The future of car shopping is here! ”
               </p>
             </div>
           </div>
 
-          <div className="div3 eachdiv">
-            <div className="userdetails">
-              <div className="imgbox">
+          <div class="div3 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
                 <img
                   src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
                   alt=""
                 />
               </div>
-              <div className="detbox">
-                <p className="name dark">Kira Whittle</p>
-                <p className="designation dark">Happy Customer</p>
+              <div class="detbox">
+                <p class="name dark">Kira Whittle</p>
+                <p class="designation dark">Happy Customer</p>
               </div>
             </div>
-            <div className="review dark">
-              <h4>Such a life-changing experience. Highly recommended!</h4>
+            <div class="review dark">
+              <h4>Tailored to Perfection</h4>
               <p>
-                “ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-                esse, architecto at explicabo voluptatibus incidunt, nam cum
-                provident quidem tempore, corrupti minus quo rem voluptas ullam?
-                Voluptates quasi sequi tempore! Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Repellat atque quas iusto magni
-                dolorem itaque explicabo perspiciatis ex quae? Doloribus maxime
-                itaque soluta omnis temporibus animi vel tempora molestiae eos?
-                ”
+                “ Motor Mart stands out as a beacon of excellence in the
+                automotive world. From the moment I entered their virtual
+                showroom, it was evident that this was not just a display of
+                cars but a personalized journey waiting to unfold. The virtual
+                test drives provided a firsthand experience, allowing me to
+                explore each vehicle's nuances. What sets Motor Mart apart is
+                their commitment to personalization. The expert advice I
+                received was not generic but tailored to my specific
+                preferences. It wasn't just about finding any car; it was about
+                discovering the perfect match for my lifestyle, seamlessly
+                blending functionality and style. The attention to detail and
+                the genuine effort to understand my needs made the entire
+                car-buying process a delight. Every recommendation felt like it
+                was curated just for me. ”
               </p>
             </div>
           </div>
 
-          <div className="div4 eachdiv">
-            <div className="userdetails">
-              <div className="imgbox">
+          <div class="div4 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
                 <img
                   src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
                   alt=""
                 />
               </div>
-              <div className="detbox">
-                <p className="name dark">Jeanette Harmon</p>
-                <p className="designation dark">Happy Customer</p>
+              <div class="detbox">
+                <p class="name dark">Jeanette Harmon</p>
+                <p class="designation dark">Happy Customer</p>
               </div>
             </div>
-            <div className="review dark">
-              <h4>An overall wonderful and rewarding experience</h4>
+            <div class="review dark">
+              <h4>Elegance Redefined</h4>
               <p>
-                “ Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus dolor odio corporis vero maxime fugit accusantium
-                libero obcaecati cupiditate aliquid molestias dicta quis odit
-                sapiente, in perspiciatis dolore magni ea! ”
+                “ Motor Mart's collection is a showcase of elegance. The cars
+                radiate sophistication, and the virtual showroom captures every
+                detail. It's where style meets technology. ”
               </p>
             </div>
           </div>
 
-          <div className="div5 eachdiv">
-            <div className="userdetails">
-              <div className="imgbox">
+          <div class="div5 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
                 <img
                   src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
                   alt=""
                 />
               </div>
-              <div className="detbox">
-                <p className="name">Patrick Abrams</p>
-                <p className="designation">Happy Customer</p>
+              <div class="detbox">
+                <p class="name">Patrick Abrams</p>
+                <p class="designation">Happy Customer</p>
               </div>
             </div>
-            <div className="review">
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                commodi quasi soluta delectus tenetur veniam quos a dicta
-                deserunt ex, necessitatibus repudiandae facilis quae numquam
-                modi cupiditate laudantium beatae eligendi?
-              </h4>
+            <div class="review">
+              <h4>Seamless and Secure</h4>
               <p>
-                “ Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum dolore sit, et exercitationem quasi ullam adipisci velit
-                vero ut sint natus consequatur quas mollitia doloribus atque
-                nulla. ”
+                “ My skepticism about virtual car shopping vanished with Motor
+                Mart. The process was seamless and secure, and the virtual
+                assistance felt like having a personal guide. Navigating the
+                virtual showroom was intuitive, The process was seamless and
+                secure, and the virtual assistance felt like having a personal
+                guide. Navigating the virtual showroom was intuitive, and the
+                secure transactions provided peace of mind. Motor Mart's
+                commitment to a seamless and secure online experience showcases
+                their dedication to customer satisfaction. If you're looking for
+                a trustworthy and convenient way to buy a car, Motor Mart is the
+                answer. Highly recommended for a hassle-free, virtual car-buying
+                journey. ”
               </p>
             </div>
           </div>
