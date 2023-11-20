@@ -103,6 +103,7 @@ const UpdateProfileForm = ({ onClose, onUpdate }) => {
                 onChange={handleChange}
               />
             </label>
+                  <div>Note:You have to login Again after Updating credentials</div>
             <button className="btn btn-info my-4" type="submit">
               Update Profile
             </button>
