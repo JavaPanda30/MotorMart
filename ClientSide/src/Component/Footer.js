@@ -1,6 +1,49 @@
+import {  useState } from "react";
 import "./Footer.css";
-
+import { useUser } from "./UserContext";
+import axios from "axios";
 export default function Footer() {
+  const { state: user } = useUser();
+
+  const [formData, setFormData] = useState({
+    email: user.email,
+    carname: "",
+    timing: "",
+  });
+
+  const handleSubmittest = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.get(
+        `https://motormart.onrender.com/userIdByEmail/${user.email}`
+      );
+      const userId = response.data.userId;
+      const newFormData = {
+        name: user.name,
+        userId: userId,
+        carname: formData.carname,
+        timing: formData.timing,
+      };
+      setFormData(newFormData);
+      await axios.post(
+        `https://motormart.onrender.com/submitTestDrive/${userId}`,
+        newFormData
+      );
+      console.log(newFormData);
+      window.alert('Test drive booked successfully!');
+    } catch (error) {
+      console.error("Error submitting test drive:", error.message);
+    }
+  };
+  
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value,
+    });
+  };
+
   return (
     <div className="Footer">
       <div className="FooterTop">
@@ -17,20 +60,41 @@ export default function Footer() {
           </span>
           <br />
           <br />
-          <form >
-          {/* onSubmit={sendmail}> */}
-            <input className="FooterForm" type="text" placeholder="FULL NAME" />
+          <form>
+            <input
+              className="FooterForm"
+              type="text"
+              id="email"
+              placeholder="Customer Mail"
+              value={formData.email}
+              readOnly
+            />
             <br />
             <input
               className="FooterForm"
-              type="tel"
-              placeholder="PHONE NUMBER"
+              type="text"
+              id="carname"
+              placeholder="Car Name"
+              value={formData.carname}
+              onChange={handleChange}
             />
             <br />
-            <input className="FooterForm" type="text" placeholder="EMAIL-ID" />
+            <input
+              className="FooterForm"
+              type="text"
+              id="timing"
+              placeholder="Test Drive Timing(24HR Format)"
+              value={formData.timing}
+              onChange={handleChange}
+            />
             <br />
             <br />
-            <input className="FooterSubmit" type="submit" value="BOOK" />
+            <input
+              className="FooterSubmit"
+              onClick={handleSubmittest}
+              type="button"
+              value="BOOK"
+            />
           </form>
         </div>
       </div>
