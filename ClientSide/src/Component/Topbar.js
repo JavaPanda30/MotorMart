@@ -37,6 +37,11 @@ function Topbar() {
               <div className="ToplistItems">Car Listing</div>
             </Link>
           </li>
+   <li>
+            <Link to="/about">
+              <div className="ToplistItems">About Us</div>
+            </Link>
+          </li>
           <li>
             <Link to="/profile">
               <div className="ToplistItems">Profile</div>
