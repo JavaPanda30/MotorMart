@@ -21,7 +21,7 @@ const UpdateProfileForm = ({ onClose, onUpdate }) => {
     const fetchUserId = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3001/userIdByEmail/${state.email}`
+          `https://motormart.onrender.com/userIdByEmail/${state.email}`
         );
         const userId = response.data.userId;
         setUserId(userId);
@@ -52,7 +52,7 @@ const UpdateProfileForm = ({ onClose, onUpdate }) => {
 
     try {
       if (userId) {
-        await axios.put(`http://localhost:3001/updateUser/${userId}`, formData);
+        await axios.put(`https://motormart.onrender.com/updateUser/${userId}`, formData);
         console.log("Profile updated successfully");
         logout();
         navigate('/login')
