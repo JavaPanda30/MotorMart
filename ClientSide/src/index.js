@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { UserProvider } from "./Components/UserContext";
+import { UserProvider } from "./Component/UserContext";
 
 ReactDOM.render(
   <React.StrictMode>
