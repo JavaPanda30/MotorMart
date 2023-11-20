@@ -49,6 +49,7 @@ function Login() {
 
         localStorage.setItem("token", response.data.token);
         navigate("/home");
+         window.alert("Login successful");
       } else {
         console.log("Login failed");
         setError(response.data.error || "Invalid credentials");
