@@ -20,7 +20,7 @@ const UserProfile = () => {
     const getUserData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3001/userIdByEmail/${state.email}`
+          `https://motormart.onrender.com/userIdByEmail/${state.email}`
         );
         const userId = response.data.userId;
         setUserId(userId);
@@ -43,7 +43,7 @@ if (!state) {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://localhost:3001/delete-customer/${userId}`);
+      await axios.delete(`https://motormart.onrender.com/delete-customer/${userId}`);
       console.log("Profile deleted successfully");
       logout();
       navigate("/login");
@@ -61,13 +61,13 @@ if (!state) {
 
   const handleUpdateProfile = async () => {
     try {
-      const emailResponse = await axios.get(`http://localhost:3001/checkEmail/${state.email}`);
+      const emailResponse = await axios.get(`https://motormart.onrender.com/checkEmail/${state.email}`);
       const isEmailExist = emailResponse.data.isExist;
       if (isEmailExist) {
         console.log("Email already exists. Please choose a different email.");
         return;
       }
-      await axios.put(`http://localhost:3001/updateUser/${userId}`, state);
+      await axios.put(`https://motormart.onrender.com/updateUser/${userId}`, state);
       console.log("Profile updated successfully");
       setShowUpdateForm(false);
     } catch (error) {
