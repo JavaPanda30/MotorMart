@@ -57,6 +57,7 @@ const UpdateProfileForm = ({ onClose, onUpdate }) => {
         logout();
         navigate('/login')
         onClose();
+        window.alert('Credential Updated successfully! Login Again');
       } else {
         console.error("User ID not available");
       }
