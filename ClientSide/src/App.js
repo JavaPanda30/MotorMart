@@ -10,7 +10,6 @@ import UserProfile from "./Component/UserProfile";
 import UpdateProfileForm from "./Component/UpdateProfileForm";
 import AboutUs from './Component/AboutUs';
 import CarListing from "./Component/CarListing";
-
 function App() {
   return (
     <Router>
